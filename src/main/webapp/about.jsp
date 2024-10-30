@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+    <title>JSP - Hello World</title>
 </head>
 <body>
-<t:pageTemplate pageTitle="Parking Lot">
-<h1>Welcome to the Parking Lot</h1>
+<t:pageTemplate pageTitle="About Parking Lot">
+    <h1>About Parking Lot</h1>
 </t:pageTemplate>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
