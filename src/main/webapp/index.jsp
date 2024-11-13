@@ -10,6 +10,5 @@
 <h1>Welcome to the Parking Lot</h1>
 </t:pageTemplate>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>
