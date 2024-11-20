@@ -17,12 +17,12 @@ public class CarsBean {
     private static final Logger LOG = Logger.getLogger(CarsBean.class.getName());
 
     @PersistenceContext
-    EntityManager enitityManager;
+    EntityManager entityManager;
 
     public List<CarDto> findAllCars(){
         LOG.info("findAllCars");
         try{
-            TypedQuery<Car>typedQuery = enitityManager.createQuery("SELECT c FROM Car c",Car.class);
+            TypedQuery<Car>typedQuery = entityManager.createQuery("SELECT c FROM Car c",Car.class);
             List<Car>cars = typedQuery.getResultList();
             return copyCarsToDto(cars);
         }catch(Exception ex){
