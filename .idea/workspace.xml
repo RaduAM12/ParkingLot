@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="Created the EJB (2)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/form-validation.js" afterDir="false" />
+    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="Lab8-Partea I">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/EditCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +48,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaScript File" />
         <option value="Servlet" />
         <option value="Jsp File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -200,6 +200,8 @@
       <workItem from="1732091440625" duration="4267000" />
       <workItem from="1732547644151" duration="32000" />
       <workItem from="1732687389605" duration="5364000" />
+      <workItem from="1732694402734" duration="2511000" />
+      <workItem from="1732708531978" duration="6082000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -265,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732095703993</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lab8-Partea I">
+      <option name="closed" value="true" />
+      <created>1732694457355</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732694457355</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +300,7 @@
     <MESSAGE value="Connected to database" />
     <MESSAGE value="Created the EJB" />
     <MESSAGE value="Created the EJB (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the EJB (2)" />
+    <MESSAGE value="Lab8-Partea I" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab8-Partea I" />
   </component>
 </project>
