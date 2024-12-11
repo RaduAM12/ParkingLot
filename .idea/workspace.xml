@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="Lab8-Partea I">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/EditCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" afterDir="false" />
+    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="CRUD for cars">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/UserGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Cars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +48,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
-        <option value="Servlet" />
+        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Servlet" />
       </list>
     </option>
   </component>
@@ -82,7 +83,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProblemeJava/Snake&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AN III/Inginerie software/Proiect&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -201,7 +202,12 @@
       <workItem from="1732547644151" duration="32000" />
       <workItem from="1732687389605" duration="5364000" />
       <workItem from="1732694402734" duration="2511000" />
-      <workItem from="1732708531978" duration="6082000" />
+      <workItem from="1732708531978" duration="6281000" />
+      <workItem from="1732878300159" duration="118000" />
+      <workItem from="1732878582062" duration="220000" />
+      <workItem from="1732879123306" duration="55000" />
+      <workItem from="1733292181180" duration="4937000" />
+      <workItem from="1733897315074" duration="4492000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -275,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732694457355</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CRUD for cars">
+      <option name="closed" value="true" />
+      <created>1732714790381</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732714790381</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +315,7 @@
     <MESSAGE value="Created the EJB" />
     <MESSAGE value="Created the EJB (2)" />
     <MESSAGE value="Lab8-Partea I" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab8-Partea I" />
+    <MESSAGE value="CRUD for cars" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD for cars" />
   </component>
 </project>

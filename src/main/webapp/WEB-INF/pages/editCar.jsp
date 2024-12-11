@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-md-6 mb-3">
                 <label for="parking_spot">Parking Spot</label>
-                <input type="text" class="form-control" id="parking_spot" placeholder="" value="${car.parkingSpot}" required>
+                <input type="text" class="form-control" id="parking_spot" name="parking_spot" placeholder="" value="${car.parkingSpot}" required>
                 <div class="invalid-feedback">
                     Parking Spot is required.
                 </div>
