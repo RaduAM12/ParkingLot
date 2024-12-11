@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="CRUD for cars">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/UserGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
+    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="Added log in and usergroups.(Part 1)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/PasswordBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/EditCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/EditCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +51,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Servlet" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="Servlet" />
       </list>
     </option>
   </component>
@@ -207,7 +209,8 @@
       <workItem from="1732878582062" duration="220000" />
       <workItem from="1732879123306" duration="55000" />
       <workItem from="1733292181180" duration="4937000" />
-      <workItem from="1733897315074" duration="4492000" />
+      <workItem from="1733897315074" duration="4754000" />
+      <workItem from="1733908150778" duration="4241000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -289,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732714790381</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added log in and usergroups.(Part 1)">
+      <option name="closed" value="true" />
+      <created>1733902086269</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733902086269</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +327,7 @@
     <MESSAGE value="Created the EJB (2)" />
     <MESSAGE value="Lab8-Partea I" />
     <MESSAGE value="CRUD for cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD for cars" />
+    <MESSAGE value="Added log in and usergroups.(Part 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added log in and usergroups.(Part 1)" />
   </component>
 </project>

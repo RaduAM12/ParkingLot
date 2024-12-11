@@ -4,9 +4,14 @@
 
 <t:pageTemplate pageTitle="Users">
     <h1>Users</h1>
+    <c:if test="${pageContext.request.isUserInRole('WRITE_CARS')}">
+        <a class="btn btn-primary btn-lg" href="${pageContext.request.contextPath}/AddUser">Add User</a>
+    </c:if>
     <div class="container text-center">
+
         <c:forEach var="user" items="${users}">
             <div class="row">
+
                 <div class="col">
                         ${user.username}
                 </div>
