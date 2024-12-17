@@ -29,8 +29,8 @@
           <div class="col">
               <c:if test="${pageContext.request.isUserInRole('WRITE_CARS')}">
               <a class="btn btn-secondary" href="${pageContext.request.contextPath}/EditCar?id=${car.id}">Edit
-                  </c:if>
                   Car</a>
+              </c:if>
           </div>
      </div>
         </c:forEach>
