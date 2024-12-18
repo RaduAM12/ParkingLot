@@ -1,6 +1,7 @@
 package com.parking.parkinglot.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class Car {
@@ -21,6 +22,8 @@ public class Car {
     private String licencePlate;
 
     @Basic
+    @Size(min=3, max=100)
+    @Column(unique = true,nullable = false,length = 100)
     public String getLicencePlate() {
         return licencePlate;
     }
@@ -32,6 +35,8 @@ public class Car {
     private String parkingSpot;
 
     @Basic
+    @Size(min=3,max=100)
+    @Column(unique = true,nullable = false,length = 100)
     public String getParkingSpot() {
         return parkingSpot;
     }
@@ -52,14 +57,16 @@ public class Car {
         this.owner = owner;
     }
 
-    private CarPhoto carPhoto;
+    private CarPhoto photo;
 
     @OneToOne(mappedBy = "car", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    public CarPhoto getCarPhoto() {
-        return carPhoto;
+    public CarPhoto getPhoto() {
+
+        return photo;
     }
 
-    public void setCarPhoto(CarPhoto carPhoto) {
-        this.carPhoto = carPhoto;
+    public void setPhoto(CarPhoto photo) {
+
+        this.photo = photo;
     }
 }

@@ -6,7 +6,7 @@
     <h1>Users</h1>
     <form method="POST" action="${pageContext.request.contextPath}/Users">
         <c:if test="${pageContext.request.isUserInRole('WRITE_CARS')}">
-            <a class="btn btn-primary btn-lg" href="${pageContext.request.contextPath}/AddUser">Add Car</a>
+            <a class="btn btn-primary btn-lg" href="${pageContext.request.contextPath}/AddUser">Add User</a>
             <button class="btn btn-danger" type="submit">Invoice</button>
         </c:if>
         <div class="container text-center">

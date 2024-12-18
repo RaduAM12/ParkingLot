@@ -10,7 +10,7 @@ public class CarPhoto {
     private Long id;
     String filename;
     String fileType;
-    byte[] filecontent;
+    byte[] fileContent;
     Car car;
 
 @Id
@@ -31,8 +31,8 @@ public class CarPhoto {
         return fileType;
     }
 
-    public byte[] getFilecontent() {
-        return filecontent;
+    public byte[] getFileContent() {
+        return fileContent;
     }
 
     public void setId(Long id) {
@@ -47,8 +47,8 @@ public class CarPhoto {
         this.fileType = fileType;
     }
 
-    public void setFilecontent(byte[] filecontent) {
-        this.filecontent = filecontent;
+    public void setFileContent(byte[] fileContent) {
+        this.fileContent=fileContent;
     }
 
     public void setCar(Car car) {

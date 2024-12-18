@@ -4,15 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="Added log in and usergroups.(Part 2)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/InvoiceBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/CarPhoto.java" afterDir="false" />
+    <list default="true" id="d826168c-59a0-4f5e-a8d6-6e21eb6d2551" name="Changes" comment="Added a stateful EJB and a file upload(Part 2)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/CarPhotoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/rest/CarsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/rest/ParkingLotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/CarPhotos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/cars/AddCarPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars/addCarPhoto.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/CarPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/CarPhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/cars/AddCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/AddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/users/AddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/cars/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/EditCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/cars/EditCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/parkinglot/servlets/users/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars/addCar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users/addUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars/cars.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars/editCar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users/user.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +78,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Servlet" />
         <option value="Jsp File" />
+        <option value="Servlet" />
         <option value="Class" />
       </list>
     </option>
@@ -91,6 +110,7 @@
     "Gradle.ParkingLot [build].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -112,6 +132,8 @@
       <recent name="com.parking.parkinglot.entities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AN III\Inginerie software\Lab5\ParkingLot\src\main\webapp\WEB-INF\pages\users" />
+      <recent name="D:\AN III\Inginerie software\Lab5\ParkingLot\src\main\webapp\WEB-INF\pages\cars" />
       <recent name="D:\AN III\Inginerie software\Lab55\ParkingLot\src\main\webapp" />
       <recent name="D:\AN III\Inginerie software\Lab55\ParkingLot\src\main\webapp\WEB-INF\tags" />
     </key>
@@ -248,7 +270,9 @@
       <workItem from="1733897315074" duration="4754000" />
       <workItem from="1733908150778" duration="4448000" />
       <workItem from="1734329224264" duration="175000" />
-      <workItem from="1734415386565" duration="4935000" />
+      <workItem from="1734415386565" duration="4986000" />
+      <workItem from="1734421818193" duration="3194000" />
+      <workItem from="1734524880006" duration="3805000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -346,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733912603657</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added a stateful EJB and a file upload(Part 2)">
+      <option name="closed" value="true" />
+      <created>1734420376832</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734420376832</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +407,7 @@
     <MESSAGE value="CRUD for cars" />
     <MESSAGE value="Added log in and usergroups.(Part 1)" />
     <MESSAGE value="Added log in and usergroups.(Part 2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added log in and usergroups.(Part 2)" />
+    <MESSAGE value="Added a stateful EJB and a file upload(Part 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a stateful EJB and a file upload(Part 2)" />
   </component>
 </project>
