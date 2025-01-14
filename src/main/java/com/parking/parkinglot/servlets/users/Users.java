@@ -1,4 +1,4 @@
-package org.example.parkinglot.servlets.users;
+package com.parking.parkinglot.servlets.users;
 
 import com.parking.parkinglot.common.CarDto;
 import com.parking.parkinglot.common.UserDto;
